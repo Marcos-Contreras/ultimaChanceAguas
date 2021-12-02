@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369380897668",
+    "project_id": "laultimachance-50675",
+    "storage_bucket": "laultimachance-50675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369380897668:android:e94e9cf3633379ec3ee3d1",
+        "android_client_info": {
+          "package_name": "com.example.laultimachance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369380897668-s5grfelm55pspf5j2sotd9essrk9g8jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBds6TWwJdfrj4kwnrlSZI42ZhLuDxuRjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369380897668-s5grfelm55pspf5j2sotd9essrk9g8jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

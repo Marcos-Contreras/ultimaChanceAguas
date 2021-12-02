@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Evaluar">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/evalua_nuestra_aplicaci_n"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/gruporadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/exc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/excelente" />
+
+        <RadioButton
+            android:id="@+id/muy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/muy_bueno" />
+
+        <RadioButton
+            android:id="@+id/reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regular" />
+
+        <RadioButton
+            android:id="@+id/pue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/puede_mejorar" />
+
+        <RadioButton
+            android:id="@+id/mal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/malo" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_calificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a81919"
+        android:onClick="btn_calificar"
+        android:text="@string/enviar_calificaci_n"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

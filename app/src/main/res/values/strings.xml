@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">La Última Chance</string>
+    <string name="greeting">Hey, whats up?</string>
+    <string name="title_activity_botanas">Snacks</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Cart</string>
+    <string name="title_notifications">My profile</string>
+    <string name="title_activity_lacteos">Dairy</string>
+    <string name="title_activity_bebidas">Drinks</string>
+    <string name="iniciarsesion">Login</string>
+    <string name="crearcuenta">Create account</string>
+    <string name="email">Email</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="contrasena">Password</string>
+    <string name="olvidosucontrasena">Forgot your password?</string>
+    <string name="aun_no_tiene_una_cuenta_crear_cuenta">You dont have an account? Create one</string>
+    <string name="confirmar_contrasena">Confirm password</string>
+    <string name="crear_cuenta">Create account</string>
+    <string name="ya_tiene_una_cuenta_iniciar_sesion">Already have an account? Login</string>
+
+
+    //Terminos y Condiciones
+    <string name="terminos_y_condiciones">Terms and Conditions</string>
+    <string name="TerminosCnt">It is a necessary requirement for the acquisition of the services offered on this site, that you read and accept the following Terms and Conditions that are written below. The use of our services will imply that you have read and accepted the Terms and Conditions of Use in this document. All the services that are offered by our website could be created, collected, sent or presented by a third website and in this case they would be subject to their own Terms and Conditions. \nIn some cases, to acquire a service, it will be necessary to register by the user, with the entry of reliable personal data and definition of a password. \nThe user can choose and change the password for his account administration access at any time, if he has registered and that is necessary for the request of any of our services. La Ultima Chance Ags does not assume responsibility in the event that this key is handed over to third parties.</string>
+    <string name="aviso_de_privacidad">Notice of Privacy</string>
+    <string name="PrivacidadCnt">In compliance with the provisions of the Federal Law for the Protection of Personal Data Held by Individuals, La Ultima Chance Ags Comercio Electrónico SA de CV, hereinafter referred to as  La Ultima Chance Ags , located at Lic. Adolfo López Mateos 408-Local A. Col. Centro CP 20000 in Aguascalientes, Aguascalientes, Mexico, as Responsible for your Personal Data, make you aware of the privacy policy and handling of personal data, in which at all times they will seek that the treatment of the same is legitimate, controlled and informed, in order to ensure privacy, confidentiality, integrity and the right to informative self-determination of your data.</string>
+    <string name="politicas_de_envios_y_devoluciones">Shipping and return policies</string>
+    <string name="PoliEnviosCnt">The prices published on the site do NOT include shipping costs within the Mexican Republic except when expressly indicated by a team or a particular promotion, the prices of the products may change at any time without prior notice, promotions from others cannot be combined with those posted on this site. The customer agrees to provide a valid address locatable within the Mexican Republic where the order can be delivered. In the event that the customer provides an address that is not located by the parcel, any other additional cost will be covered by the customer himself.</string>
+
+
+    //Finalizar compra
+    <string name="gracias_por_su_compra">Thanks for your purchase</string>
+    <string name="n_mero_de_compra">Purchase number:</string>
+
+    //titulo de activities
+    <string name="title_activity_MisPedidos">My Purchases</string>
+    <string name="title_activity_Terminos">Terms and About the app</string>
+    <string name="title_activity_Configuracion">Settings</string>
+    <string name="title_activity_MiCuenta">My Account</string>
+    <string name="title_activity_ubicanos">Locate us</string>
+
+    //Configuración
+    <string name="notificaciones">Notifications</string>
+    <string name="idioma">Languaje</string>
+    <string name="permisos">Permissions</string>
+    <string name="contacto">Contact</string>
+    <string name="evaluar_aplicacion">Evaluate app</string>
+    <string name="Preguntas_frecuentes">FQA (Frequent QA)</string>
+
+    //Mi cuenta
+    <string name="informaci_n_general">General Information</string>
+    <string name="cambiar_contrase_a">Change Password</string>
+    <string name="mis_cuentas_de_pago">My Payment Accounts</string>
+    <string name="cerrar_sesion">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //Pago
+    <string name="ingresarCuentaPaypal">Enter PayPal account</string>
+    <string name="ingresarCuentaMercadopago">Enter MercadoPago account</string>
+    <string name="ingresarPaypal">Enter</string>
+    <string name="ingresarMercadopago">Enter</string>
+    //Preguntas frecuentes
+    <string name="Como_envia">How do you ship?</string>
+    <string name="Envia_a_donde">At the moment, LA ÚLTIMA CHANCE AGS only ships in Aguascalientes, Mexico. We are working to offer our services to all the municipalities of the state so that you can enjoy our excellent prices and promotions.</string>
+    <string name="Como_envia_cnt">We make our deliveries with our own delivery men. You can place your order from the comfort of your home and receive it at home, at work or in the place that suits you best.</string>
+    <string name="A_donde_envian">Where do you ship to?</string>
+    <string name="Costo_envio">What is the shipping cost?</string>
+    <string name="Costo_envio_cnt">The shipping costs in the municipality of Aguascalientes have two different prices, within the central zone they have a cost of $ 10, while the shipping costs outside the central zone have a cost of $ 20.</string>
+    <string name="Contactanos">Social media</string>
+    <string name="La_ultima_chance_ags">La Última Chance AGS</string>
+    <string name="acceder_fb">Go</string>
+    <string name="laultimachanceags">laultimachanceags</string>
+    <string name="acceder_ig">Go</string>
+    <string name="ingles">English</string>
+    <string name="espanol">Spanish</string>
+    <string name="cambiar_idioma">Change language</string>
+    <string name="title_activity_mapa">Maps</string>
+    <string name="selecciona_tu_metodo_de_pago">Select your payment method</string>
+    <string name="mercon">Password</string>
+    <string name="IniciSesionConMercadoPago">Login with Mercado Pago</string>
+    <string name="paycon">Password</string>
+    <string name="IniciarSesionConPaypal">Login with PayPal</string>
+    <string name="pay_email_de_usuario">User email</string>
+    <string name="pay_contrase_a_de_usuario">User password</string>
+    <string name="pay_tarjeta_registrada">Registered card</string>
+    <string name="mer_email_de_usuario">User email</string>
+    <string name="mer_contrase_a_de_usuario">User password</string>
+    <string name="mer_tarjeta_registrada">Registered card</string>
+    <string name="mis_datos">My information</string>
+    <string name="check_nombre">First name</string>
+    <string name="check_apellidos">Last name</string>
+    <string name="check_correo">E-mail address</string>
+    <string name="check_telefono">Phone</string>
+    <string name="check_dir">Address</string>
+    <string name="check_dire">Address</string>
+    <string name="check_pais">Country</string>
+    <string name="check_ciudad">City</string>
+    <string name="check_estado">State</string>
+    <string name="check_codigo_postal">Postal Code</string>
+    <string name="check_envio">Shipping</string>
+    <string name="la_ultima_chance_envio_10_zona_centro">Last chance shipping $10 - Downtown</string>
+    <string name="la_ultima_chance_envio_20_fuera_del_centro">Last Chance Shipping $20 - Outside downtown area</string>
+    <string name="check_metodo_de_pago">Payment Method</string>
+    <string name="check_resumen">Summary</string>
+    <string name="check_total_de_los_productos">Total products:</string>
+    <string name="checkout_envio">Shipping:</string>
+    <string name="checkout_iva">VAT:</string>
+    <string name="checkout_total">Total:</string>
+    <string name="check_comprar_ahora">Buy now</string>
+    <string name="home">Home</string>
+    <string name="Cart">Cart</string>
+    <string name="myaccount">My account</string>
+    <string name="btn_productos">Products</string>
+    <string name="btn_ofertas">¡Sales!</string>
+    <string name="btn_novedades">Newness</string>
+    <string name="btn_paquetes">Combo</string>
+    <string name="continuar_comprando">Continue with your purchases</string>
+    <string name="btn_botanas">Snacks</string>
+    <string name="btn_bebidas">Drinks</string>
+    <string name="btn_lacteos">Lacteals</string>
+
+
+    <string name="ofertas_ofertas_de_la_semana">Sales of the week</string>
+    <string name="novedades_novedades_de_la_semana">Newnes of the week</string>
+    <string name="btn_view">View product</string>
+    <string name="btn_añadircarrito">Add to cart</string>
+    <string name="text_precio">Price: $</string>
+    <string name="text_descripcion">Description:</string>
+    <string name="btn_eliminarcarrito">Delete</string>
+    <string name="comprar">Checkout</string>
+    <string name="enviar_calificaci_n">Send calification</string>
+    <string name="evalua_nuestra_aplicaci_n">Evaluate the aplication</string>
+    <string name="excelente">Excelent</string>
+    <string name="muy_bueno">Nice</string>
+    <string name="regular">Regular</string>
+    <string name="puede_mejorar">Should be better</string>
+    <string name="malo">Bad</string>
+
+</resources>

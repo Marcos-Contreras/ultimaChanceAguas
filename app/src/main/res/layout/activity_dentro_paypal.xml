@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DentroPaypal">
+
+    <ImageView
+        android:id="@+id/imageView_LogoPaypal"
+        android:layout_width="314dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paypal" />
+
+    <TextView
+        android:id="@+id/textView_TarjetaPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/pay_tarjeta_registrada"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/editText_ContraDentroPaypal" />
+
+    <TextView
+        android:id="@+id/textView_EmailPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/pay_email_de_usuario"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_ContraPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/pay_contrase_a_de_usuario"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/editText_EmailDentroPaypal" />
+
+    <EditText
+        android:id="@+id/editText_EmailDentroPaypal"
+        android:layout_width="330dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="marcos@example.com"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/textView_EmailPaypal" />
+
+    <EditText
+        android:id="@+id/editText_ContraDentroPaypal"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="rayitocolombiano"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ContraPaypal" />
+
+    <EditText
+        android:id="@+id/editText_Paypal"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="1234 5678 9010 1112"
+        app:layout_constraintStart_toEndOf="@+id/imageView_LogoPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TarjetaPaypal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

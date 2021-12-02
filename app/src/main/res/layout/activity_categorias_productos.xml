@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".CategoriasProductos">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="329dp"
+        android:layout_height="716dp">
+
+        <Button
+            android:id="@+id/btnBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginBottom="153dp"
+            android:background="@color/green"
+            android:onClick="btnBebidas"
+            android:text="@string/btn_bebidas"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btBotanas"
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/lightblue"
+            android:onClick="btnBotanas"
+            android:text="@string/btn_botanas"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btLacteos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btLacteos"
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/red"
+            android:onClick="btnLacteos"
+            android:text="@string/btn_lacteos"
+            android:textColor="@color/white"
+
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btnBebidas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

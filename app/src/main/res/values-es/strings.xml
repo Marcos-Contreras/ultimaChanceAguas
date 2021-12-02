@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name">La Última Chance AGS</string>
+    <string name="greeting">Hola, ¿qué tal?</string>
+    <string name="title_activity_botanas">Botanas</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Carrito</string>
+    <string name="title_notifications">Mi cuenta</string>
+    <string name="title_activity_lacteos">Lácteos</string>
+    <string name="title_activity_bebidas">Bebidas</string>
+    <string name="iniciarsesion">Iniciar sesión</string>
+    <string name="crearcuenta">Crear cuenta</string>
+    <string name="email">Email</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidosucontrasena">¿Olvidó su contraseña?</string>
+    <string name="aun_no_tiene_una_cuenta_crear_cuenta">¿Aún no tiene una cuenta? Crear cuenta</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="ya_tiene_una_cuenta_iniciar_sesion">¿Ya tiene una cuenta? Iniciar sesión</string>
+
+
+    //Terminos y Condiciones
+    <string name="terminos_y_condiciones">Terminos y Condiciones</string>
+    <string name="TerminosCnt">Es requisito necesario para la adquisición de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los servicios que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. \nEn algunos casos, para adquirir un servicio, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña. \nEl usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la solicitud de alguno de nuestros servicios. La Última Chance Ags no asume la responsabilidad en caso de que entregue dicha clave a terceros.</string>
+    <string name="aviso_de_privacidad">Aviso de Privacidad</string>
+    <string name="PrivacidadCnt">En cumplimiento con lo establecido por la Ley Federal de Protección de Datos Personales en Posesión de Particulares, La Última Chance Ags Comercio Electrónico SA de CV, en lo sucesivo señalada como \'La Última Chance Ags\', ubicado en Lic. Adolfo López Mateos 408-Local A. Col. Centro C.P 20000 en Aguascalientes, Aguascalientes, México, como Responsable de sus Datos Personales hacen de su conocimiento la política de privacidad y manejo de datos personales, en la que en todo momento buscarán que el tratamiento de los mismos sea legítimo, controlado e informado, a efecto de asegurar la privacidad, confidencialidad, integridad y el derecho a la autodeterminación informativa de sus datos.</string>
+    <string name="politicas_de_envios_y_devoluciones">Políticas de Envíos y Devoluciones</string>
+    <string name="PoliEnviosCnt">Los precios publicados en el sitio NO incluyen costo de envío dentro de la República Mexicana salvo cuando expresamente lo indique algún equipo o alguna promoción en particular, los precios de los productos pueden cambiar en cualquier momento sin previo aviso, no se pueden combinar promociones de otros medios distintos a los presentados en este sitio. El cliente se compromete a proporcionar una dirección válida localizable dentro de la república mexicana donde pueda entregársele el pedido. En caso de que el cliente proporcione una dirección que no sea localizada por la paquetería, cualquier otro costo adicional será cubierto por el cliente mismo.</string>
+
+
+    //Finalizar compra
+    <string name="gracias_por_su_compra">Gracias Por Su Compra</string>
+    <string name="n_mero_de_compra">Número de compra:</string>
+
+    //titulo de activities
+    <string name="title_activity_MisPedidos">Mis Pedidos</string>
+    <string name="title_activity_Terminos">Terminos y sobre la Aplicación</string>
+    <string name="title_activity_Configuracion">Configuración</string>
+    <string name="title_activity_MiCuenta">Mi Cuenta</string>
+    <string name="title_activity_ubicanos">Ubícanos</string>
+
+    //Configuración
+    <string name="notificaciones">Notificaciones</string>
+    <string name="idioma">Idioma</string>
+    <string name="permisos">Permisos</string>
+    <string name="contacto">Contacto</string>
+    <string name="evaluar_aplicacion">Evaluar Aplicación</string>
+    <string name="Preguntas_frecuentes">Preguntas frecuentes</string>
+
+    //Mi cuenta
+    <string name="informaci_n_general">Información General</string>
+    <string name="cambiar_contrase_a">Cambiar Contraseña</string>
+    <string name="mis_cuentas_de_pago">Mis Cuentas de Pago</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //Pago
+    <string name="ingresarCuentaPaypal">ingresarCuentaPaypal</string>
+    <string name="ingresarCuentaMercadopago">ingresarCuentaMercadopago</string>
+    <string name="ingresarPaypal">Ingresar</string>
+    <string name="ingresarMercadopago">Ingresar</string>
+    //Preguntas frecuentes
+    <string name="Como_envia">¿Cómo envían?</string>
+    <string name="Envia_a_donde">De momento, LA ÚLTIMA CHANCE AGS solo realiza envíos en el municipio de Aguascalientes. Estamos trabajando para poder ofrecer nuestros servicios a todos los municipios del estado y así tu puedas disfrutar de nuestros excelentes precios y promociones.</string>
+    <string name="Como_envia_cnt">Realizamos nuestras entregas con nuestros propios repartidores. Puedes realizar tu pedido desde la comodidad de tu hogar y recibirlo en tanto en tu hogar como en el trabajo o en el sitio que más te convenga.</string>
+    <string name="A_donde_envian">¿A dónde envían?</string>
+    <string name="Costo_envio">¿Cuál es el costo de envió?</string>
+    <string name="Costo_envio_cnt">Los gastos de envío en el municipio de Aguascalientes tienen dos precios diferentes, dentro de la zona centro tienen un costo de $10, mientras que los gastos de envío fuera de la zona centro tienen un costo de $20.</string>
+    <string name="Contactanos">Contáctanos En Nuestras Redes Sociales</string>
+    <string name="La_ultima_chance_ags">La Última Chance AGS</string>
+    <string name="acceder_fb">Acceder</string>
+    <string name="laultimachanceags">laultimachanceags</string>
+    <string name="acceder_ig">Acceder</string>
+    <string name="ingles">Ingles</string>
+    <string name="espanol">Español</string>
+    <string name="cambiar_idioma">Cambiar idioma</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="selecciona_tu_metodo_de_pago">Selecciona tu metodo de pago</string>
+    <string name="mercon">Contraseña</string>
+    <string name="IniciSesionConMercadoPago">Iniciar sesión con Mercado Pago</string>
+    <string name="paycon">Contraseña</string>
+    <string name="IniciarSesionConPaypal">Iniciar sesión con PayPal</string>
+    <string name="pay_email_de_usuario">Email de usuario</string>
+    <string name="pay_contrase_a_de_usuario">Contraseña de usuario</string>
+    <string name="pay_tarjeta_registrada">Tarjeta registrada</string>
+    <string name="mer_email_de_usuario">Email de usuario</string>
+    <string name="mer_contrase_a_de_usuario">Contraseña de usuario</string>
+    <string name="mer_tarjeta_registrada">Tarjeta registrada</string>
+
+    <string name="mis_datos">Mis datos</string>
+    <string name="check_nombre">Nombre</string>
+    <string name="check_apellidos">Apellidos</string>
+    <string name="check_correo">Correo electrónico</string>
+    <string name="check_telefono">Teléfono</string>
+    <string name="check_dir">Dirección</string>
+    <string name="check_dire">Dirección</string>
+    <string name="check_pais">País</string>
+    <string name="check_ciudad">Ciudad</string>
+    <string name="check_estado">Estado</string>
+    <string name="check_codigo_postal">Código Postal</string>
+    <string name="check_envio">Envio</string>
+    <string name="la_ultima_chance_envio_10_zona_centro">La última chance envio $10 - Zona centro</string>
+    <string name="la_ultima_chance_envio_20_fuera_del_centro">La última chance envio $20 - Fuera del centro</string>
+    <string name="check_metodo_de_pago">Metodo de Pago</string>
+    <string name="check_resumen">Resumen</string>
+    <string name="check_total_de_los_productos">Total de los productos:</string>
+    <string name="checkout_envio">Envio:</string>
+    <string name="checkout_iva">IVA:</string>
+    <string name="checkout_total">Total:</string>
+    <string name="check_comprar_ahora">Comprar ahora</string>
+    <string name="home">Inicio</string>
+    <string name="Cart">Carrito</string>
+    <string name="myaccount">Mi cuenta</string>
+    <string name="btn_productos">Productos</string>
+    <string name="btn_ofertas">¡Ofertas!</string>
+    <string name="btn_novedades">Novedades</string>
+    <string name="btn_paquetes">Paquetes</string>
+    <string name="continuar_comprando">Continuar Comprando</string>
+    <string name="btn_botanas">Botanas</string>
+    <string name="btn_bebidas">Bebidas</string>
+    <string name="btn_lacteos">Lácteos</string>
+
+    <string name="ofertas_ofertas_de_la_semana">Ofertas de la semana</string>
+
+    <string name="novedades_novedades_de_la_semana">Novedades de la semana</string>
+    <string name="btn_view">Ver producto</string>
+    <string name="btn_añadircarrito">Añadir al carrito</string>
+    <string name="text_precio">Precio: $</string>
+    <string name="text_descripcion">Descripción:</string>
+    <string name="btn_eliminarcarrito">Eliminar</string>
+    <string name="comprar">Comprar</string>
+    <string name="enviar_calificaci_n">Enviar calificación</string>
+    <string name="evalua_nuestra_aplicaci_n">Evalua nuestra aplicación</string>
+    <string name="excelente">Excelente</string>
+    <string name="muy_bueno">Muy bueno</string>
+    <string name="regular">Regular</string>
+    <string name="puede_mejorar">Puede mejorar</string>
+    <string name="malo">Malo</string>
+
+</resources>

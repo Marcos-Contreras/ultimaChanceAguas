@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contactanos">
+
+    <ImageView
+        android:id="@+id/imageFB"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="fblogo"
+        app:srcCompat="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/textFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/La_ultima_chance_ags"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonAccederFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:onClick="openFacebookPage"
+        android:text="@string/acceder_fb"
+        android:background="#a81919"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageIG"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="iglogo"
+        app:srcCompat="@drawable/ig" />
+
+    <TextView
+        android:id="@+id/textIG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laultimachanceags"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonAccederIG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:onClick="openInstagramProfile"
+        android:text="@string/acceder_ig"
+        android:background="#a81919"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

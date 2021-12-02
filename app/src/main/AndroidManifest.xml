@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laultimachance">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaUltimaChance">
+        <activity
+            android:name=".Evaluar"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Mapa"
+            android:exported="true"
+            android:label="@string/title_activity_mapa" />
+        <activity
+            android:name=".Contactanos"
+            android:exported="true"
+            android:label="@string/Contactanos" />
+        <activity
+            android:name=".Preguntas"
+            android:exported="true"
+            android:label="@string/Preguntas_frecuentes" />
+        <activity
+            android:name=".Inicio"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Ubicanos"
+            android:exported="true"
+            android:label="@string/title_activity_ubicanos" />
+        <activity
+            android:name=".CompraFinalizada"
+            android:exported="true" />
+        <activity
+            android:name=".MisPedidos"
+            android:exported="true"
+            android:label="@string/title_activity_MisPedidos" />
+        <activity
+            android:name=".Terminos"
+            android:exported="true"
+            android:label="@string/title_activity_Terminos" />
+        <activity
+            android:name=".Configuracion"
+            android:exported="true"
+            android:label="@string/title_activity_Configuracion" />
+        <activity
+            android:name=".MiCuenta"
+            android:exported="true"
+            android:label="@string/title_activity_MiCuenta" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="true" />
+        <activity
+            android:name=".Carrito"
+            android:exported="true" />
+        <activity
+            android:name=".Novedades"
+            android:exported="true" />
+        <activity
+            android:name=".Ofertas"
+            android:exported="true" />
+        <activity
+            android:name=".ProductoBebidas1"
+            android:exported="true" />
+        <activity
+            android:name=".Producto_Lacteos1"
+            android:exported="true" />
+        <activity
+            android:name=".Botanas"
+            android:exported="true" />
+        <activity
+            android:name=".Bebidas"
+            android:exported="true" />
+        <activity
+            android:name=".Lacteos"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".CategoriasProductos"
+            android:exported="true" />
+        <activity
+            android:name=".Checkout"
+            android:exported="true" />
+        <activity
+            android:name=".DentroMercadopago"
+            android:exported="true" />
+        <activity
+            android:name=".DentroPaypal"
+            android:exported="true" />
+        <activity
+            android:name=".FormasDePago"
+            android:exported="true" />
+        <activity
+            android:name=".IngresarMercadopago"
+            android:exported="true" />
+        <activity
+            android:name=".IngresarPaypal"
+            android:exported="true" />
+        <activity
+            android:name=".Paquetes"
+            android:exported="true" />
+        <activity
+            android:name=".ProductoBotanas1"
+            android:exported="true" />
+    </application>
+
+</manifest>
